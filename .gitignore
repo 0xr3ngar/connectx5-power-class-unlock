@@ -1,0 +1,16 @@
+# Never commit NVIDIA firmware images or card backups (proprietary, and they
+# contain your card GUIDs/MACs/serial).
+*.bin
+*.bin.zip
+*.ini
+
+# kernel module build output
+*.ko
+*.o
+*.mod
+*.mod.c
+*.cmd
+.*.cmd
+Module.symvers
+modules.order
+.module-common.o
